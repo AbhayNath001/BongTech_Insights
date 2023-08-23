@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+.main {
+  display: flex;
+}
+.navbar {
+  width: 100%;
+}
+.navbar nav ul{
+  display: flex;
+  justify-content: right;
+}
+.navbar nav ul .link{
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+.navbar nav ul .active{
+  color: aqua;
+}
+.nav {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 15%;
+}
