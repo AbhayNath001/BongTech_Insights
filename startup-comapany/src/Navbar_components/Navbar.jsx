@@ -6,11 +6,13 @@ import Internship from './Internship';
 import Verification from './Verification';
 import Team from './Team';
 import Contact from './Contact';
+import headerLogo from './header_logo.png';
 
 function Navbar() {
   return (
     <Router>
       <div className="navbar">
+        <img src={headerLogo} alt="Header Logo" />
         <nav>
           <ul>
             <NavLink to="/" className="link" activeClassName="active">Home</NavLink>
@@ -21,7 +23,10 @@ function Navbar() {
             <NavLink to="/contact" className="link">Contact Us</NavLink>
           </ul>
         </nav>
-        <Routes>
+        
+      </div>
+      <div className="route_element">
+      <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/internship" element={<Internship />} />
