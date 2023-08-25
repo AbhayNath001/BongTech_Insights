@@ -1,23 +1,39 @@
 .App {
   text-align: center;
 }
-.main {
-  display: flex;
-}
 .navbar {
-  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar img {
+  width: 5rem;
+  height: 5rem;
 }
 .navbar nav ul{
   display: flex;
-  justify-content: right;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .navbar nav ul .link{
   margin-right: 1rem;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   text-decoration: none;
-  color: #fff;
+  color: rgb(110, 109, 109);
+  font-weight: 500;
+  z-index: 100;
+}
+.navbar nav ul .link:hover {
+  background: rgba(216, 216, 216, 0.491);
+  color: rgb(50, 22, 255);
+  border-radius: 5px;
+  width: fit-content;
 }
 .navbar nav ul .active{
-  color: aqua;
+  color: rgb(42, 69, 166);
 }
 .nav {
   text-align: center;
