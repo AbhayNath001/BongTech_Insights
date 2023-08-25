@@ -8,12 +8,14 @@
 .navbar img {
   width: 5rem;
   height: 5rem;
+  cursor: not-allowed;
 }
 .navbar nav ul{
   display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
+  padding-top: 25px;
 }
 .navbar nav ul .link{
   margin-right: 1rem;
@@ -27,7 +29,7 @@
   z-index: 100;
 }
 .navbar nav ul .link:hover {
-  background: rgba(216, 216, 216, 0.491);
+  background: rgba(240, 245, 253, 0.587);
   color: rgb(50, 22, 255);
   border-radius: 5px;
   width: fit-content;
@@ -39,4 +41,20 @@
   text-align: center;
   font-size: 3rem;
   margin-top: 15%;
+}
+.home {
+  font-size: 1.2rem;
+  font-weight: 450;
+  margin-top: 15%;
+}
+.big_header {
+  font-size: 4.6rem;
+  font-weight: 700;
+}
+.big_header span {
+  color: rgb(89, 63, 233);
+  font-size: 5.6rem;
+}
+.home img {
+  z-index: -100;
 }
