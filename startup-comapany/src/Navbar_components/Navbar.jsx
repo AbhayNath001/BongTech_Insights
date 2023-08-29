@@ -12,7 +12,10 @@ function Navbar() {
   return (
     <Router>
       <div className="navbar">
-        <img src={headerLogo} alt="Header Logo" />
+        <div className="wrap">
+          <img src={headerLogo} alt="Header Logo" />
+          <div className="comp_name">BongTech Insights</div>
+        </div>
         <nav>
           <ul>
             <NavLink to="/" className="link" activeClassName="active">Home</NavLink>
