@@ -4,5 +4,5 @@
   `npm install @mui/material @mui/icons-material`<br>
   `npm install yup`<br>
   `npm install @emotion/react @emotion/styled`<br>
-  `npm install react-icons --save`<br>
+  `npm install @react-icons/all-files --save`<br>
   `npm start`<br>
