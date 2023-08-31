@@ -67,6 +67,17 @@ body, html {
   margin-top: 15%;
   margin-left: 10%;
 }
+.about {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 15%;
+  display: flex;
+}
+.intrenship {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 15%;
+}
 .team {
   display: flex;
   flex-direction: column;
@@ -105,6 +116,76 @@ body, html {
 .apply_button button:hover {
   background: rgb(73, 50, 204);
   cursor: pointer;
+}
+/* ----------------------------------About Section------------------------------------- */
+.about_img {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: -7rem;
+  margin-left: 7rem;
+}
+.about-header {
+  font-size: 1.4rem;
+  text-align: left;
+  margin-left: 4rem;
+}
+.about-header h3 {
+  color:rgb(131, 131, 134);
+}
+/* ----------------------------------Intrenships Section------------------------------------- */
+.internships {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.intern {
+  background: rgb(255, 255, 255);
+  width: 30%;
+  height: auto;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 1rem rgb(184, 184, 184);
+  margin-right: 2rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.intern h5 {
+  color: rgb(98, 98, 98);
+  font-weight: 400;
+  display: inline-block;
+  margin-top: auto;
+}
+.intern .apply_button {
+  display: flex;
+  justify-content: center;
+  margin-left: -0.1rem;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.intern .apply_button button {
+  border-radius: 75px;
+  font-size: 1.2rem;
+  padding: 0.5rem 2rem;
+}
+.intern_img img {
+  max-width: 20rem;
+  max-height: 100%;
+  width: 40%;
+  height: auto;
+  animation: moveUpDown 4s infinite;
+}
+@keyframes moveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.7rem);
+  }
 }
 /* ----------------------------------Teams Section------------------------------------- */
 .team_item {
@@ -156,12 +237,16 @@ body, html {
 .team_img {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Add this to center-align content horizontally */
+  align-items: center;
 }
 .tm_img {
-  position: relative; /* Add this to make positioning relative to this container */
+  position: relative;
   text-align: center;
   margin-left: 4rem;
+  background: #fff;
+  width: fit-content;
+  border-radius: 15px;
+  margin-bottom: 2rem;
 }
 .tm_img img {
   border-radius: 15px;
@@ -233,7 +318,7 @@ body, html {
 .team_footer {
   background: linear-gradient(180deg, rgb(30, 0, 255), rgb(15, 0, 128));
   width: 100%;
-  height: 25rem;
+  height: 15rem;
 }
 .team_footer {
   display: flex;
@@ -251,4 +336,33 @@ body, html {
 }
 .footer_label h2 {
   margin-top: -1rem;
+}
+.social_platforms {
+  background: linear-gradient(300deg, rgb(144, 36, 245), rgb(12, 65, 255));
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social_platforms h3 {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-right: 10rem;
+}
+.social_platforms a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  border: solid rgb(118, 147, 252);
+  border-radius: 50%;
+  padding: 0.4rem;
+}
+.social_platforms a:hover {
+  background: rgb(118, 147, 252);
+  background-color: #fff;
+}
+.social_platforms a:hover .icon {
+  color: blue;
 }
