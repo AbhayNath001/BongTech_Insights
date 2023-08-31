@@ -71,6 +71,10 @@ function Contact() {
           <h2>Kolkata, West Bengal, India</h2>
         </div>
       </div>
+      <div className='social_platforms'>
+        <h3>© 2023 BongTech Insights. All Rights Reserved.</h3>
+        <a href="https://www.linkedin.com/company/kol-tech-insights/"><AiFillLinkedin className='icon' /></a>
+      </div>
     </div>
   );
 }

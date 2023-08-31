@@ -16,7 +16,7 @@ function Home() {
         Leading Software <br/><span>Technology</span><br/> Company<br/>
       </div>
       <div class="apply_button">
-      <button type="submit" onClick={handleApplyClick}>Apply Here →</button>
+        <button type="submit" onClick={handleApplyClick}>Apply Here →</button>
       </div>
     </div>
   );
