@@ -53,7 +53,7 @@ function Contact() {
             </div>
           </div>
           <h2><span>Dhruv</span> Panpalia <a href="https://www.linkedin.com/in/dhruv-panpalia-744a28226/details/skills/"><HiExclamationCircle class="share_icon" /></a></h2>
-          <p>Business Analytics</p>
+          <p>Business Analyst</p>
         </div>
 {/* -------------------------------------------------------------------------- */}
       </div>
